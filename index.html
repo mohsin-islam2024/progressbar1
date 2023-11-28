@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page" class="site">
+        <div class="box vue">
+            <div class="circle">
+                <svg>
+                    <defs>
+                        <linearGradient id="gradientvue" x1="50%" y1="50%" x2="50%" y2="100%" >
+                            <stop offset="0%" stop-color="var(--vuecolor)"/>
+                            <!-- <stop offset="30%" stop-color="red"/> -->
+                            <stop offset="100%" stop-color="#5eaefd"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="95" cy="95" r="95" stroke="url(#gradientvue)"></circle>
+                </svg>
+            
+                <div class="inside">
+                    <span>95%</span>
+                    <div class="dot"></div>
+                </div>
+                <h4>Vue JS</h4>
+            </div>
+        </div>
+
+        <div class="box js">
+            <div class="circle">
+                <svg>
+                    <defs>
+                        <linearGradient id="gradientjs" x1="50%" y1="50%" x2="50%" y2="100%" >
+                            <stop offset="0%" stop-color="var( --jscolor)"/>
+                            <!-- <stop offset="30%" stop-color="red"/> -->
+                            <stop offset="100%" stop-color="#5eaefd"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="95" cy="95" r="95" stroke="url(#gradientjs)"></circle>
+                </svg>
+            
+                <div class="inside">
+                    <span>90%</span>
+                    <div class="dot"></div>
+                </div>
+                <h4>JavaScript</h4>
+            </div>
+        </div>
+
+        <div class="box react">
+            <div class="circle">
+                <svg>
+                    <defs>
+                        <linearGradient id="gradientreact" x1="50%" y1="50%" x2="50%" y2="100%" >
+                            <stop offset="0%" stop-color="var(--reactcolor)"/>
+                            <!-- <stop offset="30%" stop-color="red"/> -->
+                            <stop offset="100%" stop-color="#5eaefd"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="95" cy="95" r="95" stroke="url(#gradientreact)"></circle>
+                </svg>
+            
+                <div class="inside">
+                    <span>80%</span>
+                    <div class="dot"></div>
+                </div>
+                <h4>React JS</h4>
+            </div>
+        </div>
+    </div>
+
+
+    
+    
+</body>
+</html>
